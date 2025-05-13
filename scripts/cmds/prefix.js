@@ -49,7 +49,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your group chat to: %1",
-			myPrefix: "𝗣𝗥𝗘𝗙𝗜𝗫 : ⇛ %2 ⇚\n 𝗧𝗮𝗽𝗲 %𝟮𝗵𝗲𝗹𝗽 𝗽𝗼𝘂𝗿 𝘃𝗼𝗶𝗿 𝘁𝗼𝘂𝘁𝗲 𝗹𝗲𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲𝘀 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲𝘀"
+			myPrefix: "𝗣𝗥𝗘𝗙𝗜𝗫 : ⇛ %2 ⇚\n 𝗧𝗮𝗽𝗲 %2help 𝗽𝗼𝘂𝗿 𝘃𝗼𝗶𝗿 𝘁𝗼𝘂𝘁𝗲 𝗹𝗲𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲𝘀 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲𝘀"
 		}
 	},
 
@@ -197,7 +197,7 @@ module.exports = {
 
 		if (event.body) {
 		  // List of prefixes to check
-		  const prefixesToCheck = ["Nash", "bot", "prefix"];
+		  const prefixesToCheck = ["bot", "prefix"];
 	  
 		  // Normalize the message to lowercase for case-insensitive matching
 		  const lowercasedMessage = event.body.toLowerCase();
