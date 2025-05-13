@@ -1,5 +1,5 @@
 <img src="https://i.ibb.co/Jwtyz83V/image.jpg" alt="banner">  
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> RavenBot - Bot Chat Messenger Intelligent</h1>  
+<h1 align="center"><img src="https://i.ibb.co/LzQWN8Tk/image.jpg" width="22px"> RavenBot - Bot Chat Messenger Intelligent</h1>  
 ---
 
 ## À propos
