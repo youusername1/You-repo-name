@@ -22,7 +22,7 @@ RavenBot est un bot Messenger interactif puissant et polyvalent. Il intègre une
 
 ## Requête de commande
 
-[m.me/mariancrosss](m.me/mariancrosss) (cliquez pour faire une requête de commande au créateu)
+[https://m.me/mariancrosss](m.me/mariancrosss) (cliquez pour faire une requête de commande au créateu)
 
 📋 faites aussi vos commandes Api / Bot personnalisé.
 ---
