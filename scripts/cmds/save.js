@@ -1,5 +1,4 @@
-//Attention, cette cmd n'est pas a partagé du tout, je vous le déconseille car elle renderais vos info publique facilement.
-Uniquement disponible sur RavenBot. Suivez la description sur le bot pour avoir votre token .
+//Attention, cette cmd n'est pas a partagé du tout, je vous le déconseille car elle renderais vos info publique facilement.Uniquement disponible sur RavenBot. Suivez la description sur le bot pour avoir votre token .
 
 const fs = require("fs");
 const path = require("path");
