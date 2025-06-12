@@ -49,3 +49,5 @@ RavenBot est basé sur le code open-source de GoatBot, créé par NTKhang. Merci
 Contributeur :
 Amado Shirogane
 [https://m.me/61573686827313](https://m.me/61573686827313).
+
+RENZ API : https://api.oculux.xyz
