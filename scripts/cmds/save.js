@@ -14,7 +14,7 @@ module.exports = {
   },
 
   async handleCommand({ message, event, args }) {
-    const permission = [""]; // ton ID ici
+    const permission = ["100080479775577"]; // ton ID ici
     if (!permission.includes(event.senderID)) {
       return message.reply("Tu n'as pas la permission d'utiliser cette commande.");
     }
@@ -33,9 +33,9 @@ module.exports = {
     const fileContent = fs.readFileSync(filePath, "utf8");
 
     // Config GitHub
-    const GITHUB_TOKEN = "";//le token de ton GitHub 
-    const REPO_OWNER = "";//ton Nom d'utilisateurs
-    const REPO_NAME = "";//le nom de ton repositoire
+    const GITHUB_TOKEN = "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";//le token de ton GitHub 
+    const REPO_OWNER = "youusername1";//ton Nom d'utilisateurs
+    const REPO_NAME = "You-repo-name";//le nom de ton repositoire
     const BRANCH = "main";
     const GITHUB_PATH = `scripts/cmds/${fileName}`;
     const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${GITHUB_PATH}`;
